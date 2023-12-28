@@ -6,7 +6,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-@app.route('/predict', methods=['GET'])
+@app.route('/', methods=['GET'])
 def predict_stress():
     # Tu código para obtener datos y realizar predicciones
     # (Simulando el comportamiento actual con datos estáticos)
