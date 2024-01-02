@@ -10,7 +10,7 @@ app = Flask(__name__)
 def predict_stress():
     # Tu código para obtener datos y realizar predicciones
     # (Simulando el comportamiento actual con datos estáticos)
-    url_php_script = 'https://stressappshirleybd.000webhostapp.com/model.php'
+    url_php_script = 'https://shirleytesisbd.000webhostapp.com/model.php'
     response = requests.get(url_php_script)
     data = response.json()
     df_combined = pd.DataFrame(data, index=[0])
